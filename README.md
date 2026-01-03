@@ -52,6 +52,10 @@ medical-expenses-tracker/
 1. Clone the repository
 2. Install dependencies:
    ```bash
+   # Using uv (recommended - faster)
+   uv pip install -e .
+
+   # Or using pip
    pip install -r requirements.txt
    ```
 
