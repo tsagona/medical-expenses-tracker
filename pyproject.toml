@@ -2,9 +2,9 @@
 name = "medical-expenses-tracker"
 version = "0.1.0"
 description = "Track medical expenses for FSA reimbursement"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
-    "streamlit>=1.31.0",
+    "streamlit>=1.40.0",
     "google-auth>=2.27.0",
     "google-auth-oauthlib>=1.2.0",
     "google-auth-httplib2>=0.2.0",
