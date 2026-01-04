@@ -422,6 +422,10 @@ def main():
         # Get sheet URL from secrets
         sheet_url = st.secrets.get("sheet_url", "")
 
+        # Debug: show what secrets are available
+        st.write("DEBUG: Available secret keys:", list(st.secrets.keys()))
+        st.write("DEBUG: sheet_url value:", repr(sheet_url))
+
         if not sheet_url:
             st.error("⚠️ Sheet URL not configured in secrets.")
             st.info("Please add your Google Sheet URL to Streamlit secrets.")
